@@ -1,0 +1,3 @@
+INFO - 2025-12-27 13:09:53,850 - conftest.py:17 - [conftest:fixture_test] - --------------开始测试---------------
+ERROR - 2025-12-27 13:09:53,854 - apiutil.py:102 - [apiutil:specification_yaml] - object of type 'NoneType' has no len()
+INFO - 2025-12-27 13:09:53,927 - conftest.py:19 - [conftest:fixture_test] - --------------结束测试---------------

@@ -1,0 +1,39 @@
+INFO - 2025-12-15 15:54:13,104 - conftest.py:17 - [conftest:fixture_test] - --------------开始测试---------------
+INFO - 2025-12-15 15:54:13,112 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：用户登录
+INFO - 2025-12-15 15:54:13,112 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-12-15 15:54:13,112 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:post
+INFO - 2025-12-15 15:54:13,113 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:用户名和密码正确登录验证
+INFO - 2025-12-15 15:54:13,113 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-15 15:54:13,113 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-15 15:54:13,113 - sendrequests.py:71 - [sendrequests:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-15 15:54:13,116 - sendrequests.py:36 - [sendrequests:send_request] - cookie:{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NTc4NTI1MywianRpIjoiYjYyZjdmZmQtMmFlNC00NzUxLTg1NGEtZjdiMmVmZDczYzEyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NTc4NTI1MywiZXhwIjoxNzY1Nzg2MTUzfQ.8pn0bWSgD4ulLv8vm9fKLHzlSlM9CG_FZUsGrX-nhCs'}}
+INFO - 2025-12-15 15:54:13,116 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-15 15:54:13,117 - apiutil.py:128 - [apiutil:extract_data] - json提取到的参数为：{'token': '04b7438390540aAAd0aacE23eAD3e'}
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：用户登录
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:post
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:用户名和密码正确登录验证
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-15 15:54:13,121 - sendrequests.py:71 - [sendrequests:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-15 15:54:13,124 - sendrequests.py:36 - [sendrequests:send_request] - cookie:{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NTc4NTI1MywianRpIjoiYTVmY2RlNGMtZmEzNC00MzBiLWEyNWYtNzUyODZmNGQ1NWZkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NTc4NTI1MywiZXhwIjoxNzY1Nzg2MTUzfQ.dK3vGcSQmlf5LW0teA3-kNrlkxb27uS7J8cV_cJgtjA'}}
+INFO - 2025-12-15 15:54:13,124 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-15 15:54:13,125 - apiutil.py:128 - [apiutil:extract_data] - json提取到的参数为：{'token': 'BF843f2f7ba6C5AeE26D633afeeEC'}
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：商品列表
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:get
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:获取商品列表
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-15 15:54:13,129 - sendrequests.py:77 - [sendrequests:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-12-15 15:54:13,131 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-15 15:54:13,132 - apiutil.py:155 - [apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-12-15 15:54:13,141 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：商品详情
+INFO - 2025-12-15 15:54:13,142 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-12-15 15:54:13,142 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:post
+INFO - 2025-12-15 15:54:13,142 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:获取商品列表
+INFO - 2025-12-15 15:54:13,142 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-15 15:54:13,142 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-15 15:54:13,142 - sendrequests.py:74 - [sendrequests:run_main] - 请求参数：{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2025-12-15 15:54:13,145 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [400]>
+INFO - 2025-12-15 15:54:13,146 - conftest.py:19 - [conftest:fixture_test] - --------------结束测试---------------

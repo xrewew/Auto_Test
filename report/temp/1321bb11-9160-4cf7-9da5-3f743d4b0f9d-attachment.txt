@@ -1,0 +1,10 @@
+INFO     common.recordlog:sendrequests.py:62 接口名称：商品列表
+INFO     common.recordlog:sendrequests.py:63 接口请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO     common.recordlog:sendrequests.py:64 请求方法:get
+INFO     common.recordlog:sendrequests.py:65 测试用例方法:获取商品列表
+INFO     common.recordlog:sendrequests.py:66 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO     common.recordlog:sendrequests.py:67 CookiesNone
+INFO     common.recordlog:sendrequests.py:77 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO     common.recordlog:sendrequests.py:37 接口的实际返回信息:<Response [200]>
+INFO     common.recordlog:apiutil.py:160 json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO     common.recordlog:assertions.py:162 测试成功！

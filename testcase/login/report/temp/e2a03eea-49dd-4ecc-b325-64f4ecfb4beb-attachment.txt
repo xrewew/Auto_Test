@@ -1,0 +1,11 @@
+INFO     common.recordlog:conftest.py:11 --------------开始测试---------------
+INFO     common.recordlog:sendrequests.py:61 接口名称：用户登录
+INFO     common.recordlog:sendrequests.py:62 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO     common.recordlog:sendrequests.py:63 请求方法:post
+INFO     common.recordlog:sendrequests.py:64 测试用例方法:用户名和密码正确登录验证
+INFO     common.recordlog:sendrequests.py:65 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO     common.recordlog:sendrequests.py:66 Cookies{}
+INFO     common.recordlog:sendrequests.py:70 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO     common.recordlog:sendrequests.py:35 cookie:{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NTY5MjU4OCwianRpIjoiNWEyMzczZTQtMTliMS00MTBhLTgzZGQtYmRiNTIwZDY0Zjk1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NTY5MjU4OCwiZXhwIjoxNzY1NjkzNDg4fQ._mEYkULhuRhWUgfj6lRozKyOroDhavnGJqcvvI5dUh8'}}
+INFO     common.recordlog:sendrequests.py:36 接口的实际返回信息:<Response [200]>
+INFO     common.recordlog:conftest.py:13 --------------结束测试---------------

@@ -1,0 +1,12 @@
+INFO - 2025-12-27 13:25:18,144 - conftest.py:17 - [conftest:fixture_test] - --------------开始测试---------------
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：商品列表
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:get
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:获取商品列表
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-27 13:25:18,147 - sendrequests.py:77 - [sendrequests:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-12-27 13:25:18,150 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-27 13:25:18,151 - apiutil.py:160 - [apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-12-27 13:25:18,151 - assertions.py:161 - [assertions:assert_result] - 测试成功！
+INFO - 2025-12-27 13:25:18,152 - conftest.py:19 - [conftest:fixture_test] - --------------结束测试---------------

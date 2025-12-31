@@ -1,0 +1,14 @@
+<envirnment>
+    <parameter>
+        <key>system</key>
+        <value>window 11</value>
+    </parameter>
+        <parameter>
+        <key>python version</key>
+        <value>3.11.2</value>
+    </parameter>
+        <parameter>
+        <key>allure version</key>
+        <value>2.36.0</value>
+    </parameter>
+</envirnment>

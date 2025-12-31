@@ -1,0 +1,47 @@
+INFO - 2025-12-16 16:45:55,637 - conftest.py:17 - [conftest:fixture_test] - --------------开始测试---------------
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：用户登录
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:post
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:用户名和密码正确登录验证
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-16 16:45:55,640 - sendrequests.py:71 - [sendrequests:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-16 16:45:55,643 - sendrequests.py:36 - [sendrequests:send_request] - cookie:{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NTg3NDc1NSwianRpIjoiMDJjYzc0YmEtNzljZi00YWM2LWFiYjQtMTRjNTM5M2Q0NWM2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NTg3NDc1NSwiZXhwIjoxNzY1ODc1NjU1fQ.cmDOHJ83EbChnNS7sg_j1-c51SB-RUh8c8JAyoiPBC4'}}
+INFO - 2025-12-16 16:45:55,643 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-16 16:45:55,644 - apiutil.py:133 - [apiutil:extract_data] - json提取到的参数为：{'token': 'BCf8F12D4ECC5d6a18Ba9115081cE'}
+ERROR - 2025-12-16 16:45:55,644 - assertions.py:79 - [assertions:equals_assert] - 相等断言失败：接口的实际结果为：{'msg': '登录成功'},不等于预期结果：{'msg': '登录成功1111'}
+ERROR - 2025-12-16 16:45:55,645 - assertions.py:164 - [assertions:assert_result] - 异常信息：local variable 'flag' referenced before assignment
+ERROR - 2025-12-16 16:45:55,645 - assertions.py:165 - [assertions:assert_result] - local variable 'flag' referenced before assignment
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：用户登录
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:post
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:用户名和密码正确登录验证
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-16 16:45:55,648 - sendrequests.py:71 - [sendrequests:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-16 16:45:55,651 - sendrequests.py:36 - [sendrequests:send_request] - cookie:{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NTg3NDc1NSwianRpIjoiYmE2ZTM0ZjMtYTllYy00OGNkLTllNzQtYzJjY2I5NjBhMGM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NTg3NDc1NSwiZXhwIjoxNzY1ODc1NjU1fQ.8Kc4MvJPtpqKAOhTG1wze89n_e-iLIzXdDrx69YEKZA'}}
+INFO - 2025-12-16 16:45:55,651 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-16 16:45:55,652 - apiutil.py:133 - [apiutil:extract_data] - json提取到的参数为：{'token': '1fbAb9deAb7600D4d32e93BfBdDf9'}
+ERROR - 2025-12-16 16:45:55,652 - assertions.py:79 - [assertions:equals_assert] - 相等断言失败：接口的实际结果为：{'msg': '登录成功'},不等于预期结果：{'msg': '登录成功1111'}
+ERROR - 2025-12-16 16:45:55,652 - assertions.py:164 - [assertions:assert_result] - 异常信息：local variable 'flag' referenced before assignment
+ERROR - 2025-12-16 16:45:55,652 - assertions.py:165 - [assertions:assert_result] - local variable 'flag' referenced before assignment
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：商品列表
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:get
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:获取商品列表
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-16 16:45:55,656 - sendrequests.py:77 - [sendrequests:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-12-16 16:45:55,658 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-16 16:45:55,659 - apiutil.py:160 - [apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-12-16 16:45:55,659 - assertions.py:162 - [assertions:assert_result] - 测试成功！
+INFO - 2025-12-16 16:45:55,669 - sendrequests.py:62 - [sendrequests:run_main] - 接口名称：商品详情
+INFO - 2025-12-16 16:45:55,669 - sendrequests.py:63 - [sendrequests:run_main] - 接口请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-12-16 16:45:55,669 - sendrequests.py:64 - [sendrequests:run_main] - 请求方法:post
+INFO - 2025-12-16 16:45:55,669 - sendrequests.py:65 - [sendrequests:run_main] - 测试用例方法:获取商品列表
+INFO - 2025-12-16 16:45:55,669 - sendrequests.py:66 - [sendrequests:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-12-16 16:45:55,670 - sendrequests.py:67 - [sendrequests:run_main] - CookiesNone
+INFO - 2025-12-16 16:45:55,670 - sendrequests.py:74 - [sendrequests:run_main] - 请求参数：{'json': {'pro_id': '74190550836', 'page': 1, 'size': 20}}
+INFO - 2025-12-16 16:45:55,672 - sendrequests.py:37 - [sendrequests:send_request] - 接口的实际返回信息:<Response [200]>
+INFO - 2025-12-16 16:45:55,673 - assertions.py:162 - [assertions:assert_result] - 测试成功！
+INFO - 2025-12-16 16:45:55,674 - conftest.py:19 - [conftest:fixture_test] - --------------结束测试---------------

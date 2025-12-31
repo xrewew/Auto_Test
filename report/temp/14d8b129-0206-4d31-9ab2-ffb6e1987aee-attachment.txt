@@ -1,0 +1,13 @@
+INFO     common.recordlog:sendrequests.py:62 接口名称：用户登录
+INFO     common.recordlog:sendrequests.py:63 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO     common.recordlog:sendrequests.py:64 请求方法:post
+INFO     common.recordlog:sendrequests.py:65 测试用例方法:用户名和密码正确登录验证
+INFO     common.recordlog:sendrequests.py:66 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(product_id,1)}'}
+INFO     common.recordlog:sendrequests.py:67 CookiesNone
+INFO     common.recordlog:sendrequests.py:71 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO     common.recordlog:sendrequests.py:36 cookie:{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NTg3NTAzMywianRpIjoiNjJlNTFlMzYtZTljOS00ZWY2LWI3YTctZTM2ZDAyOGUwN2IyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NTg3NTAzMywiZXhwIjoxNzY1ODc1OTMzfQ.3Iyy6xGh5oz7XYmDb_HZHUrONjo6OBKs9oNyMJKvQ6w'}}
+INFO     common.recordlog:sendrequests.py:37 接口的实际返回信息:<Response [200]>
+INFO     common.recordlog:apiutil.py:133 json提取到的参数为：{'token': 'F69aEaAEE95fAAc754F0aE5fbB0aF'}
+ERROR    common.recordlog:assertions.py:79 相等断言失败：接口的实际结果为：{'msg': '登录成功'},不等于预期结果：{'msg': '登录成功1111'}
+ERROR    common.recordlog:assertions.py:164 异常信息：local variable 'flag' referenced before assignment
+ERROR    common.recordlog:assertions.py:165 local variable 'flag' referenced before assignment
